@@ -14,8 +14,7 @@ foreach (var item in Samples)
     var flagPermissionSample = CheckSampleToAnalisys.GetPermission(item);
 }
 
-Print.InMessage(
-    "происходит проверка на доступность и необходимость пробы для анализа из пула всех проб находящихся в лаборатории");
+Print.InMessage("происходит проверка на доступность и необходимость пробы для анализа из пула всех проб находящихся в лаборатории");
 Print.ForUser("выберите пробу");
 Print.ForUser("вы выбрали пробу 1");
 var tempSampleAnalysis = new SampleAnalysis(1, Samples[0]);
